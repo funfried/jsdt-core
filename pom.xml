@@ -84,7 +84,7 @@
 		<project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<tychoVersion>2.7.1</tychoVersion>
+		<tychoVersion>2.7.2</tychoVersion>
 	</properties>
 
 	<dependencyManagement>
@@ -122,7 +122,7 @@
 			<dependency>
 				<groupId>com.google.javascript</groupId>
 				<artifactId>closure-compiler-unshaded</artifactId>
-				<version>v20220405</version>
+				<version>v20220502</version>
 			</dependency>
 			<dependency>
 				<groupId>com.google.protobuf</groupId>
@@ -132,7 +132,7 @@
 			<dependency>
 				<groupId>org.checkerframework</groupId>
 				<artifactId>checker-qual</artifactId>
-				<version>3.21.4</version>
+				<version>3.22.0</version>
 			</dependency>
 			<dependency>
 				<groupId>com.ibm.icu</groupId>

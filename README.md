@@ -1,6 +1,6 @@
 # jsdt-core
 
-[![Release Build][ci_img]][ci_link]
+[![Release Build][ci_release_img]][ci_release_link]
 [![Build][ci_img]][ci_link]
 [![Maven Central][maven_img]][maven_link]
 [![License][license_img]][license_link]
