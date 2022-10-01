@@ -24,5 +24,5 @@ dependency in other [Maven] projects, such as [formatter-maven-plugin].
 [formatter-maven-plugin]: https://github.com/funfried/formatter-maven-plugin
 [license_img]: https://img.shields.io/badge/license-EPL%201.0-blue.svg
 [license_link]: https://github.com/funfried/jsdt-core/blob/main/LICENSE
-[maven_img]: https://maven-badges.herokuapp.com/maven-central/de.funfried.revelc.code.formatter/jsdt-core/badge.svg
-[maven_link]: https://maven-badges.herokuapp.com/maven-central/de.funfried.revelc.code.formatter/jsdt-core
+[maven_img]: https://maven-badges.herokuapp.com/maven-central/de.funfried.libraries/jsdt-core/badge.svg
+[maven_link]: https://maven-badges.herokuapp.com/maven-central/de.funfried.libraries/jsdt-core
