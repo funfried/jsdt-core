@@ -369,8 +369,8 @@
 						<configuration>
 							<rules>
 								<requireMavenVersion>
-									<!-- require min 3.6.2+ for https://issues.apache.org/jira/browse/MNG-6669 -->
-									<version>[3.6.3,)</version>
+									<!-- require min 3.9.0+ for Eclipse Tycho -->
+									<version>[3.9.0,)</version>
 								</requireMavenVersion>
 								<requireJavaVersion>
 									<version>[17,)</version>

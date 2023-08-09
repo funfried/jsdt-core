@@ -37,6 +37,10 @@ jobs:
       with:
         java-version: 17
         distribution: zulu
+    - name: Set up Maven 3.9.4
+      uses: stCarolas/setup-maven@v4.5
+      with:
+        maven-version: 3.9.4
     - name: Cache local maven repository
       uses: actions/cache@v2
       with:

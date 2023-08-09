@@ -19,6 +19,10 @@ jobs:
         java-version: '17'
         distribution: 'adopt'
         cache: maven
+    - name: Set up Maven 3.9.4
+      uses: stCarolas/setup-maven@v4.5
+      with:
+        maven-version: 3.9.4
     - name: Build and Deploy with Maven
       run: |
         git config --global user.email "info@funfried.de"
