@@ -30,12 +30,6 @@
 
 	<mirrors>
 		<mirror>
-			<id>bits-netbeans-http-blocker</id>
-			<mirrorOf>bits-netbeans</mirrorOf>
-			<name>Bits NetBeans Mirror</name>
-			<url>https://netbeans.apidesign.org/maven2/</url>
-		</mirror>
-		<mirror>
 			<id>central-http-blocker</id>
 			<mirrorOf>central</mirrorOf>
 			<name>Maven Central Mirror</name>
@@ -86,17 +80,6 @@
 				<skipRemoteStaging>${env.skipRemoteStaging}</skipRemoteStaging>
 			</properties>
 			<repositories>
-				<repository>
-					<id>bits-netbeans</id>
-					<name>bits-netbeans</name>
-					<url>https://netbeans.apidesign.org/maven2/</url>
-					<releases>
-						<enabled>true</enabled>
-					</releases>
-					<snapshots>
-						<enabled>true</enabled>
-					</snapshots>
-				</repository>
 				<repository>
 					<id>central</id>
 					<name>Maven Central Repository</name>
@@ -253,17 +236,6 @@
 				</repository>
 			</repositories>
 			<pluginRepositories>
-				<pluginRepository>
-					<id>bits-netbeans</id>
-					<name>bits-netbeans</name>
-					<url>https://netbeans.apidesign.org/maven2/</url>
-					<releases>
-						<enabled>true</enabled>
-					</releases>
-					<snapshots>
-						<enabled>true</enabled>
-					</snapshots>
-				</pluginRepository>
 				<pluginRepository>
 					<id>central</id>
 					<name>Maven Central Repository</name>
