@@ -35,12 +35,6 @@
 			<name>Bits NetBeans Mirror</name>
 			<url>https://netbeans.apidesign.org/maven2/</url>
 		</mirror>
-		<!--<mirror>
-			<id>scijava-http-blocker</id>
-			<mirrorOf>scijava</mirrorOf>
-			<name>SciJava Mirror</name>
-			<url>https://maven.scijava.org/content/groups/public/</url>
-		</mirror>-->
 		<mirror>
 			<id>central-http-blocker</id>
 			<mirrorOf>central</mirrorOf>
@@ -103,20 +97,9 @@
 						<enabled>true</enabled>
 					</snapshots>
 				</repository>
-				<!--<repository>
-					<id>scijava</id>
-					<name>scijava</name>
-					<url>https://maven.scijava.org/content/groups/public/</url>
-					<releases>
-						<enabled>true</enabled>
-					</releases>
-					<snapshots>
-						<enabled>true</enabled>
-					</snapshots>
-				</repository>-->
 				<repository>
 					<id>central</id>
-					<name>central</name>
+					<name>Maven Central Repository</name>
 					<url>https://repo1.maven.org/maven2/</url>
 					<releases>
 						<enabled>true</enabled>
@@ -127,13 +110,13 @@
 				</repository>
 				<repository>
 					<id>apache</id>
-					<name>apache</name>
-					<url>https://repository.apache.org/</url>
+					<name>Apache Maven Repository</name>
+					<url>https://repo.maven.apache.org/maven2/</url>
 					<releases>
 						<enabled>true</enabled>
 					</releases>
 					<snapshots>
-						<enabled>false</enabled>
+						<enabled>true</enabled>
 					</snapshots>
 				</repository>
 				<repository>
@@ -175,6 +158,94 @@
 					<url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
 					<releases>
 						<enabled>false</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<id>vaadin</id>
+					<name>Vaadin Directory</name>
+					<url>https://maven.vaadin.com/vaadin-addons</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<id>atlassian</id>
+					<name>Atlassian Maven Repository</name>
+					<url>https://packages.atlassian.com/mvn/maven-atlassian-external/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<id>camunda</id>
+					<name>Camunda Maven Repository</name>
+					<url>https://app.camunda.com/nexus/content/groups/public/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<id>jboss</id>
+					<name>RedHat JBoss</name>
+					<url>https://repository.jboss.org/nexus/content/groups/public/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<id>jetbrains</id>
+					<name>Jetbrains</name>
+					<url>https://www.jetbrains.com/intellij-repository/releases/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<id>jetbrains-third-party</id>
+					<name>Jetbrains Third Party</name>
+					<url>https://cache-redirector.jetbrains.com/intellij-dependencies</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<id>jitpack</id>
+					<name>JitPack.io</name>
+					<url>https://jitpack.io</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+				<repository>
+					<id>confluent</id>
+					<name>Confluent.io</name>
+					<url>https://packages.confluent.io/maven/</url>
+					<releases>
+						<enabled>true</enabled>
 					</releases>
 					<snapshots>
 						<enabled>true</enabled>
@@ -193,20 +264,9 @@
 						<enabled>true</enabled>
 					</snapshots>
 				</pluginRepository>
-				<!--<pluginRepository>
-					<id>scijava</id>
-					<name>scijava</name>
-					<url>https://maven.scijava.org/content/groups/public/</url>
-					<releases>
-						<enabled>true</enabled>
-					</releases>
-					<snapshots>
-						<enabled>true</enabled>
-					</snapshots>
-				</pluginRepository>-->
 				<pluginRepository>
 					<id>central</id>
-					<name>central</name>
+					<name>Maven Central Repository</name>
 					<url>https://repo1.maven.org/maven2/</url>
 					<releases>
 						<enabled>true</enabled>
@@ -217,13 +277,13 @@
 				</pluginRepository>
 				<pluginRepository>
 					<id>apache</id>
-					<name>apache</name>
-					<url>https://repository.apache.org/</url>
+					<name>Apache Maven Repository</name>
+					<url>https://repo.maven.apache.org/maven2/</url>
 					<releases>
 						<enabled>true</enabled>
 					</releases>
 					<snapshots>
-						<enabled>false</enabled>
+						<enabled>true</enabled>
 					</snapshots>
 				</pluginRepository>
 				<pluginRepository>
@@ -265,6 +325,94 @@
 					<url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
 					<releases>
 						<enabled>false</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+				<pluginRepository>
+					<id>vaadin</id>
+					<name>Vaadin Directory</name>
+					<url>https://maven.vaadin.com/vaadin-addons</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+				<pluginRepository>
+					<id>atlassian</id>
+					<name>Atlassian Maven Repository</name>
+					<url>https://packages.atlassian.com/mvn/maven-atlassian-external/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+				<pluginRepository>
+					<id>camunda</id>
+					<name>Camunda Maven Repository</name>
+					<url>https://app.camunda.com/nexus/content/groups/public/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+				<pluginRepository>
+					<id>jboss</id>
+					<name>RedHat JBoss</name>
+					<url>https://repository.jboss.org/nexus/content/groups/public/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+				<pluginRepository>
+					<id>jetbrains</id>
+					<name>Jetbrains</name>
+					<url>https://www.jetbrains.com/intellij-repository/releases/</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+				</pluginRepository>
+				<pluginRepository>
+					<id>jetbrains-third-party</id>
+					<name>Jetbrains Third Party</name>
+					<url>https://cache-redirector.jetbrains.com/intellij-dependencies</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+				<pluginRepository>
+					<id>jitpack</id>
+					<name>JitPack.io</name>
+					<url>https://jitpack.io</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+				<pluginRepository>
+					<id>confluent</id>
+					<name>Confluent.io</name>
+					<url>https://packages.confluent.io/maven/</url>
+					<releases>
+						<enabled>true</enabled>
 					</releases>
 					<snapshots>
 						<enabled>true</enabled>
