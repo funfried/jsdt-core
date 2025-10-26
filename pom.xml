@@ -369,8 +369,8 @@
 						<configuration>
 							<rules>
 								<requireMavenVersion>
-									<!-- require min 3.9.0+ for Eclipse Tycho -->
-									<version>[3.9.0,)</version>
+									<!-- require min 3.9.11+ for Eclipse Tycho -->
+									<version>[3.9.11,)</version>
 								</requireMavenVersion>
 								<requireJavaVersion>
 									<version>[21,)</version>
