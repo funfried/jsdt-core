@@ -85,17 +85,6 @@
 					</snapshots>
 				</repository>
 				<repository>
-					<id>camunda</id>
-					<name>Camunda Maven Repository</name>
-					<url>https://app.camunda.com/nexus/content/groups/public/</url>
-					<releases>
-						<enabled>true</enabled>
-					</releases>
-					<snapshots>
-						<enabled>true</enabled>
-					</snapshots>
-				</repository>
-				<repository>
 					<id>jboss</id>
 					<name>RedHat JBoss</name>
 					<url>https://repository.jboss.org/nexus/content/groups/public/</url>
@@ -233,17 +222,6 @@
 					<id>atlassian</id>
 					<name>Atlassian Maven Repository</name>
 					<url>https://packages.atlassian.com/mvn/maven-atlassian-external/</url>
-					<releases>
-						<enabled>true</enabled>
-					</releases>
-					<snapshots>
-						<enabled>true</enabled>
-					</snapshots>
-				</pluginRepository>
-				<pluginRepository>
-					<id>camunda</id>
-					<name>Camunda Maven Repository</name>
-					<url>https://app.camunda.com/nexus/content/groups/public/</url>
 					<releases>
 						<enabled>true</enabled>
 					</releases>
